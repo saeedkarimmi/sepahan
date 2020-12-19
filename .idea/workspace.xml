@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="384c4943-fabd-4ac9-b840-985d3baeac0d" name="Default Changelist" comment="" />
+    <list default="true" id="384c4943-fabd-4ac9-b840-985d3baeac0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/master.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +16,8 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>download</find>
-    </findStrings>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -139,11 +142,13 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1goh8ZyhaTbU1Xa6xXXMMUvFG34" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -156,7 +161,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -285,7 +290,7 @@
       <workItem from="1606827173853" duration="1376000" />
       <workItem from="1606829000885" duration="1002000" />
       <workItem from="1606830819926" duration="975000" />
-      <workItem from="1608387806999" duration="1470000" />
+      <workItem from="1608387806999" duration="3617000" />
     </task>
     <servers />
   </component>
@@ -301,17 +306,33 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608388539089" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1608391270226">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608391270226" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608390445552">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608390445552" />
+    <state x="488" y="201" key="git4idea.merge.GitPullDialog" timestamp="1608390440491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="488" y="201" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1608390440491" />
+    <state x="570" y="319" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1608390429701">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="570" y="319" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608390429701" />
     <state x="385" y="187" key="run.anything.popup" timestamp="1601446999897">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="187" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1601446999897" />
     <state x="385" y="197" key="run.anything.popup/0.23.1440.839@0.23.1440.839" timestamp="1601221254698" />
     <state x="385" y="197" key="run.anything.popup/0.23.1440.840@0.23.1440.840" timestamp="1600058987533" />
-    <state x="411" y="152" width="715" height="673" key="search.everywhere.popup" timestamp="1608388236145">
+    <state x="411" y="152" width="715" height="673" key="search.everywhere.popup" timestamp="1608390660535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="385" y="166" width="670" height="735" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1606830140882" />
-    <state x="411" y="152" width="715" height="673" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1608388236145" />
+    <state x="411" y="152" width="715" height="673" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1608390660535" />
     <state x="385" y="177" width="670" height="684" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1601410200895" />
     <state x="385" y="166" width="670" height="735" key="search.everywhere.popup/0.23.1440.838@0.23.1440.838" timestamp="1601221942686" />
     <state x="385" y="178" width="670" height="686" key="search.everywhere.popup/0.23.1440.839@0.23.1440.839" timestamp="1601220302305" />
