@@ -1,0 +1,46 @@
+@import './file/font.css';
+
+// Variables
+
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/dist/css/bootstrap.css';
+
+// Packages
+@import './front/font-awesome.min.css';
+//@import '~animate.css/animate.css';
+@import '~jquery-ui/themes/base/all.css';
+//@import '~@fancyapps/fancybox/dist/jquery.fancybox.css';
+//@import '~szmigiel-meanmenu/meanmenu.min.css';
+//@import '~nivo-slider/nivo-slider.css';
+@import './front/owl.carousel.min.css';
+
+
+
+// Theme
+@import 'front/default.css';
+@import 'front/home-2.css';
+@import 'front/home-3.css';
+@import 'front/home-4.css';
+@import './front/jquery-ui.min.css';
+@import 'front/slick.css';
+@import 'front/nivo-slider.css';
+@import 'front/animate.css';
+@import 'front/owl.carousel.min.css';
+
+//@import 'front/jquery.fancybox.css';
+//@import 'front/meanmenu.min.css';
+
+
+
+
+
+@import 'front/style.css';
+
+@import 'front/responsive.css';
+h1, h2, h3, h4, h5, h6 {
+
+    font-family:iransans !important;
+    line-height: 2.1;
+}
