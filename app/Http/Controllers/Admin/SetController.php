@@ -50,7 +50,7 @@ class SetController extends Controller
         $setting = Setting::query()->where('type', 'banner')->findOrFail($id);
         $setting->value = $request->input('value');
 
-        $path = "storage/app/public/" . $request->file('img')->store('file');
+        $path = "storage/" . $request->file('img')->store('file');
 
         $setting->value = $request->input('value');
         $setting->img = $path;
@@ -90,7 +90,7 @@ class SetController extends Controller
         ]);
 
         $setting = Setting::query()->where('type', 'slider')->findOrFail($id);
-        $path = "storage/app/public/" . $request->file('img')->store('file');
+        $path = "storage/" . $request->file('img')->store('file');
 
         $setting->value = $request->input('value');
         $setting->img = $path;
