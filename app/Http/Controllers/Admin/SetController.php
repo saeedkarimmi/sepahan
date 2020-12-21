@@ -43,7 +43,7 @@ class SetController extends Controller
     public function update(Request $request, $id)
     {
         $request->validate([
-            'value' => ['required', 'string'],
+            'value' => ['string'],
             'img' => ['required', 'file']
         ]);
 
@@ -85,7 +85,7 @@ class SetController extends Controller
     public function updateSlider(Request $request, $id)
     {
         $request->validate([
-            'value' => ['required', 'string'],
+            'value' => ['string'],
             'img' => ['required', 'file']
         ]);
 

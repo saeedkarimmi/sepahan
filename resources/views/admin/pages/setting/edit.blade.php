@@ -18,7 +18,7 @@
 
                             <div class="col-md-6">
                                 <label for="value">لینک</label>
-                                <input type="url" class="form-control" id="value" name="value" required>
+                                <input type="url" class="form-control" id="value" name="value">
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
