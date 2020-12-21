@@ -15,68 +15,42 @@ class SetController extends Controller
      */
     public function index()
     {
-        $settings = Setting::get();
-
-
-        return view('admin.pages.setting.index',['settings'=>$settings] );    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
+        $banners = Setting::query()->where('type', 'banner')->get();
+        $footers = Setting::query()->where('type', 'footer')->get();
+        $sliders = Setting::query()->where('type', 'slider')->get();
+        return view('admin.pages.setting.index',compact('banners', 'footers','sliders'));
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
-        $setting = Setting::findOrFail($id);
-        return view('admin.pages.setting.edit',['setting'=>$setting]);
+        $setting = Setting::query()->where('type', 'banner')->findOrFail($id);
+        return view('admin.pages.setting.edit', ['setting' => $setting]);
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
-        $setting = Setting::findOrFail($id);
-         $setting->value = $request->input('value');
+        $request->validate([
+            'value' => ['required', 'string'],
+            'img' => ['required', 'file']
+        ]);
 
-        $path ="storage/app/public/". $request->file('img')->store('file');
+        $setting = Setting::query()->where('type', 'banner')->findOrFail($id);
+        $setting->value = $request->input('value');
+
+        $path = "storage/app/public/" . $request->file('img')->store('file');
 
         $setting->value = $request->input('value');
         $setting->img = $path;
@@ -84,19 +58,51 @@ class SetController extends Controller
         return redirect(route('admin.setting.index'));
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
+    public function editFooter($id)
     {
-        //
+        $setting = Setting::query()->where('type', 'footer')->findOrFail($id);
+        return view('admin.pages.setting.edit-footer', ['setting' => $setting]);
     }
-    public function uploadFile($file , $pathName)
-{
-    $hashedName = Str::random('25') . '.' . pathinfo($file->getClientOriginalName())['extension'];
-    return Storage::disk('public')->putFileAs($pathName, $file, $hashedName);
-}
+
+    public function updateFooter(Request $request, $id)
+    {
+        $request->validate([
+            'value' => ['required', 'string'],
+        ]);
+
+        $setting = Setting::query()->where('type', 'footer')->findOrFail($id);
+        $setting->value = $request->input('value');
+        $setting->save();
+        return redirect(route('admin.setting.index'));
+    }
+
+    public function editSlider($id)
+    {
+        $setting = Setting::query()->where('type', 'slider')->findOrFail($id);
+        return view('admin.pages.setting.edit-slider', ['setting' => $setting]);
+    }
+
+    public function updateSlider(Request $request, $id)
+    {
+        $request->validate([
+            'value' => ['required', 'string'],
+            'img' => ['required', 'file']
+        ]);
+
+        $setting = Setting::query()->where('type', 'slider')->findOrFail($id);
+        $path = "storage/app/public/" . $request->file('img')->store('file');
+
+        $setting->value = $request->input('value');
+        $setting->img = $path;
+        $setting->save();
+        return redirect(route('admin.setting.index'));
+    }
+
+
+
+    public function uploadFile($file, $pathName)
+    {
+        $hashedName = Str::random('25') . '.' . pathinfo($file->getClientOriginalName())['extension'];
+        return Storage::disk('public')->putFileAs($pathName, $file, $hashedName);
+    }
 }

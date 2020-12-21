@@ -32,6 +32,13 @@ Route::prefix('admin')->namespace('Admin')->name('admin.')->middleware('auth')->
     Route::resource('news','NewsController');
     Route::resource('users','UsersController');
     Route::resource('setting','SetController');
+
+    Route::get('settings/editFooter/{id}', 'SetController@editFooter')->name('setting.editFooter');
+    Route::put('settings/updateFooter/{id}/footer', 'SetController@updateFooter')->name('setting.updateFooter');
+
+    Route::get('settings/editSlider/{id}', 'SetController@editSlider')->name('setting.editSlider');
+    Route::put('settings/updateSlider/{id}/slider', 'SetController@updateSlider')->name('setting.updateSlider');
+
     Route::resource('search','SearchController');
     Route::get('deletefile/{id}','ProductfileController@destroy');
     Route::get('deletedatashid/{id}','DeldatashidController@destroy');
