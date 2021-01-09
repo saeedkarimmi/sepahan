@@ -23,7 +23,7 @@
                         <a target="_blank" href="{!! $set->value !!}"><img src="{{asset($set->img)}}" alt="slider-banner"></a>                    </div>
                     <!-- Single Banner End -->
                 </div>
-                <div class="col-md-offset-3 col-md-6 slider">
+                <div class="col-md-9 slider">
                     <div class="slider-wrapper theme-default">
                         <!-- Slider Background  Image Start-->
                         <div >
@@ -134,7 +134,7 @@
                         <div class="row text-right">
                             @foreach($posts as $post)
                                 <div class="col-md-6 col-sm-12">
-                                   <a target="_blank" href="{{url('news/'.$post->id.'-'.str_replace(' ','-',$post->title))}}" > 
+                                   <a target="_blank" href="{{url('news/'.$post->id.'-'.str_replace(' ','-',$post->title))}}" >
                                    {{$post->title}} -
                                    </a>
                                     <br>
@@ -188,7 +188,7 @@
                         <!-- Deal Pro Activation Start -->
                         @foreach(\App\Product::where('show_in_homepage',1)->take(4)->get() as $value)
 
-                        
+
 
                         <div class="col-lg-6 border">
                             <!-- Dual Product Start -->
@@ -201,14 +201,14 @@
                                     <?php
                                     $file_name =$image->img_url;
                                    $image_main = Storage::url('app/public/'.$file_name);
-                                    
-                                    ?>                                 
-                            
+
+                                    ?>
+
                               <div id="thumb2" class="tab-pane fade {{ $loop->first ? 'in active' : '' }}">
                             <a data-fancybox="images" href="{{$image_main}}"><img src="{{$image_main}}" alt="product-view"></a>
                         </div>
-                             @endforeach  
-                                                
+                             @endforeach
+
                                                 <!--<a href="{{$image_main}}">-->
                                                     <!--<img src="images/products/8.jpg" alt="single-product">-->
                                                 <!--    <img src="{{$image_main}}" alt="single-product">-->
