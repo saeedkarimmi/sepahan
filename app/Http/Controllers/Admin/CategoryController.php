@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Category;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
+use Illuminate\Validation\Rules\Unique;
 
 class CategoryController extends Controller
 {
@@ -46,7 +48,12 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,[
-            'title' => 'required|unique:categories'
+            'title' => ["required", Rule::unique('categories', 'title')->where(function ($query) use ($request) {
+                if ($request->has('category_id')) {
+                    return $query->where('category_id', $request->get('category_id'));
+                }
+            })],
+            'category_id' => ['nullable','exists:categories,category_id']
         ]);
         Category::create([
             'title'=>$request->title,
@@ -90,6 +97,14 @@ class CategoryController extends Controller
      */
     public function update(Request $request, $id)
     {
+        $this->validate($request,[
+            'title' => ["required", Rule::unique('categories', 'title')->where(function ($query) use ($request, $id) {
+                if ($request->has('category_id')) {
+                    return $query->where('category_id', $request->get('category_id'))->where('id', '!=' , $id);
+                }
+            })],
+            'category_id' => ['nullable','exists:categories,category_id']
+        ]);
         $category = Category::findOrFail($id);
         $category->update([
             'title'=>$request->title,
