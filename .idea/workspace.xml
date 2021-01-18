@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="384c4943-fabd-4ac9-b840-985d3baeac0d" name="Default Changelist" comment="add carousel">
-      <change beforePath="$PROJECT_DIR$/.idea/sepahanelectric.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sepahanelectric.iml" afterDir="false" />
+    <list default="true" id="384c4943-fabd-4ac9-b840-985d3baeac0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/dashboard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +300,8 @@
       <workItem from="1608387806999" duration="3617000" />
       <workItem from="1608570655066" duration="7686000" />
       <workItem from="1610189288229" duration="1529000" />
-      <workItem from="1610274168584" duration="3031000" />
+      <workItem from="1610274168584" duration="3240000" />
+      <workItem from="1610279580794" duration="934000" />
     </task>
     <task id="LOCAL-00001" summary="working on settings!">
       <created>1608580674422</created>
@@ -311,7 +310,13 @@
       <option name="project" value="LOCAL" />
       <updated>1608580674422</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎۰۰۰۰۲" summary="update validations">
+      <created>1610278629882</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
+      <updated>1610278629882</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,25 +338,30 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="working on settings!" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on settings!" />
+    <MESSAGE value="update validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="update validations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606820242372">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1606820242372" />
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1609135314731">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1610278621202">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609135314731" />
-    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1610277394892">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610278621202" />
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1610278532500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610277394892" />
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610278532500" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608388539089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608388539089" />
+    <state x="600" y="115" key="RollbackChangesDialog" timestamp="1610278535942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="600" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610278535942" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1610276183338">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
