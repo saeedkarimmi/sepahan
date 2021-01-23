@@ -11,33 +11,38 @@ class SearchController extends Controller
 {
     public function search(Request $request)
     {
-        if(!isset($request->q))
-        {
+        if (!$request->has('q')) {
             return redirect('/');
         }
-        if(strlen($request->q) <= 191)
-        {
+
+        $q = $request->get('q');
+
+        if (strlen($q) <= 191) {
             Search::create([
-                'title' => $request->q
+                'title' => $q
             ]);
         }
-        $terms=explode(' ',$request->q);
-        $product=Product::where(function ($q) use ($terms){
-            foreach ($terms as $term)
-            {
-                return $q->where('title','LIKE','%'.$term.'%');
-            }
-        })->orderByDesc('id')->paginate(36);
 
+        $terms = explode(' ', $q);
+        $productsObj = Product::query()->where(function ($q) use ($terms) {
+//            foreach ($terms as $term) {
+//                return $q->where('title', 'LIKE', '%' . $term . '%');
+//            }
+        })->orderByDesc('id')/*->paginate(36)*/;
 
-        $post=Post::where(function ($q) use ($terms){
-            foreach ($terms as $term)
-            {
-                return $q->where('title','LIKE','%'.$term.'%');
-            }
-        })->orderByDesc('id')->paginate(36);
+        $products = $productsObj->limit(10)->get();
+        $productsCount = $productsObj->count();
 
-        return view('admin.search',compact('product','post'));
+        $postsObj = Post::query()->where(function ($q) use ($terms) {
+//            foreach ($terms as $term) {
+//                return $q->where('title', 'LIKE', '%' . $term . '%');
+//            }
+        })->orderByDesc('id')/*->paginate(36)*/;
+
+        $posts = $postsObj->limit(10)->get();
+        $postsCount = $postsObj->count();
+
+        return view('front.search.show', compact('products','productsCount', 'posts', 'postsCount'));
 
     }
 }

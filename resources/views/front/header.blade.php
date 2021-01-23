@@ -31,9 +31,8 @@ z-index: 1000;">
                        </div>
                        <div class="col-md-6 col-sm-6">
                            <div class="search-box-style-three search-box-view fix">
-                               <form method="get" action="{{url('search')}}">
-                                   @csrf
-                                   <input type="text" class="search" placeholder="جستجو (محصولات ، اخبار و ...)" name="q" style="text-align:right;">
+                               <form method="get" action="{{ route('front.search') }}">
+                                   <input type="text" id="search-input" class="search" placeholder="جستجو (محصولات ، اخبار و ...)" name="q" style="text-align:right;">
                                    <button type="submit" class="submit"></button>
                                </form>
                            </div>

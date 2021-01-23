@@ -30,5 +30,12 @@
         @include('front.footer')
         </div>
     <script src="{{ asset('js/app.js') }}"></script>
+        <script>
+            $(document).ready(function () {
+                $('#search-input').on('keyup', function (e) {
+                    console.log(e);
+                })
+            })
+        </script>
     </body>
 </html>
