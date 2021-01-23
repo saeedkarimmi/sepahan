@@ -11,6 +11,24 @@ class SearchController extends Controller
 {
     public function search(Request $request)
     {
+        $data = $this->getData($request);
+
+        return view('front.search.show', [
+            'products' => $data['products'],
+            'productsCount' => $data['productsCount'],
+            'posts' => $data['posts'],
+            'postsCount' => $data['postsCount']
+        ]);
+
+    }
+
+    public function searchAjax()
+    {
+        dd(12312321);
+    }
+
+    private function getData(Request $request)
+    {
         if (!$request->has('q')) {
             return redirect('/');
         }
@@ -42,7 +60,11 @@ class SearchController extends Controller
         $posts = $postsObj->limit(10)->get();
         $postsCount = $postsObj->count();
 
-        return view('front.search.show', compact('products','productsCount', 'posts', 'postsCount'));
-
+        return [
+            'products' => $products,
+            'productsCount' => $productsCount,
+            'posts' => $posts,
+            'postsCount' => $postsCount,
+        ];
     }
 }

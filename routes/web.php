@@ -56,6 +56,7 @@ Route::prefix('admin')->namespace('Admin')->name('admin.')->middleware('auth')->
 });
 
 Route::get('/search','SearchController@search')->name('front.search');
+Route::get('/search-ajax','SearchController@searchAjax')->name('front.search-ajax');
 
 Route::prefix('dashboard')->middleware('auth')->group(function () {
     Route::get('/', 'DashboardController@getIndex')->name('dashboard');

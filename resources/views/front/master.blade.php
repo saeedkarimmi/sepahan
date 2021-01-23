@@ -34,6 +34,10 @@
             $(document).ready(function () {
                 $('#search-input').on('keyup', function (e) {
                     console.log(e);
+
+                    $.get("{{ route('front.search-ajax') }}",function () {
+                        console.log(534534);
+                    });
                 })
             })
         </script>
