@@ -31,9 +31,11 @@ z-index: 1000;">
                        </div>
                        <div class="col-md-6 col-sm-6">
                            <div class="search-box-style-three search-box-view fix">
-                               <form method="get" action="{{ route('front.search') }}">
-                                   <input type="text" id="search-input" class="search" placeholder="جستجو (محصولات ، اخبار و ...)" name="q" style="text-align:right;">
-                                   <button type="submit" class="submit"></button>
+                               <form method="get" class="form-inline" action="{{ route('front.search') }}">
+                                   <div class="form-group mb-2">
+                                       <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+                                       <input type="text" id="search-input" class="form-control" placeholder="جستجو (محصولات ، اخبار و ...)" name="q" style="text-align:right;">
+                                   </div>
                                </form>
                            </div>
                        </div>
