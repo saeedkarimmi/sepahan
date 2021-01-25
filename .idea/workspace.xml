@@ -27,8 +27,8 @@
   <component name="ChangeListManager">
     <list default="true" id="384c4943-fabd-4ac9-b840-985d3baeac0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/front/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/search/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/search/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,6 +341,9 @@
       <workItem from="1610219708073" duration="2942000" />
       <workItem from="1610733068015" duration="1011000" />
       <workItem from="1611425922093" duration="5728000" />
+      <workItem from="1611488270968" duration="565000" />
+      <workItem from="1611550121934" duration="1247000" />
+      <workItem from="1611562312485" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="working on settings!">
       <created>1608580674422</created>
@@ -370,7 +373,19 @@
       <option name="project" value="LOCAL" />
       <updated>1610222338481</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL‎۰۰۰۰۵" summary="uncomment conditions">
+      <created>1611478942329</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۵" />
+      <updated>1611478942329</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۶" summary="change  style of search form">
+      <created>1611478969552</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۶" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
+      <updated>1611478969552</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,21 +436,23 @@
     <MESSAGE value="comment require" />
     <MESSAGE value="assign sliders" />
     <MESSAGE value="change js from cdn to local libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="change js from cdn to local libraries" />
+    <MESSAGE value="uncomment conditions" />
+    <MESSAGE value="change  style of search form" />
+    <option name="LAST_COMMIT_MESSAGE" value="change  style of search form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606820242372">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.900@0.0.1440.900" timestamp="1606820242372" />
-    <state x="393" y="4" key="CommitChangelistDialog2" timestamp="1611472531789">
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1611478968592">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611472531789" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1611477681492">
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1611478968592" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1611481266343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1611477681492" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1611481266343" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608388539089">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -444,14 +461,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608391270226" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1608390445552">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1611478973130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608390445552" />
-    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1611478206646">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1611478973130" />
+    <state x="478" y="145" width="817" height="534" key="find.popup" timestamp="1611483295942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1611478206646" />
+    <state x="478" y="145" width="817" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1611483295942" />
     <state x="488" y="201" key="git4idea.merge.GitPullDialog" timestamp="1611472533731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
