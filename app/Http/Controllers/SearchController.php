@@ -43,18 +43,18 @@ class SearchController extends Controller
 
         $terms = explode(' ', $q);
         $productsObj = Product::query()->where(function ($q) use ($terms) {
-//            foreach ($terms as $term) {
-//                return $q->where('title', 'LIKE', '%' . $term . '%');
-//            }
+            foreach ($terms as $term) {
+                return $q->where('title', 'LIKE', '%' . $term . '%');
+            }
         })->orderByDesc('id')/*->paginate(36)*/;
 
         $products = $productsObj->limit(10)->get();
         $productsCount = $productsObj->count();
 
         $postsObj = Post::query()->where(function ($q) use ($terms) {
-//            foreach ($terms as $term) {
-//                return $q->where('title', 'LIKE', '%' . $term . '%');
-//            }
+            foreach ($terms as $term) {
+                return $q->where('title', 'LIKE', '%' . $term . '%');
+            }
         })->orderByDesc('id')/*->paginate(36)*/;
 
         $posts = $postsObj->limit(10)->get();

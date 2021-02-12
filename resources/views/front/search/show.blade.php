@@ -6,6 +6,9 @@
             <div class="row m-5">
                 <!-- Section Title Start -->
                 <div class="col-md-12">
+                    @if($productsCount == 0 and $postsCount == 0 )
+                        <h3>موردی یافت نشد</h3>
+                    @endif
                     <div class="row">
                         @foreach($products as $product)
                             <div class="col-lg-3">
@@ -17,7 +20,6 @@
                                 </a>
                             </div>
                         @endforeach
-
                     </div>
                     @if($productsCount > 10)
                         <a href="">مشاهده محصولات بیشتر</a>
@@ -33,7 +35,7 @@
                             </a>
                         </div>
                     @endforeach
-                    @if($productsCount > 10)
+                    @if($postsCount > 10)
                         <a href="">مشاهده اخبار بیشتر</a>
                     @endif
                 </div>
@@ -41,7 +43,7 @@
             </div>
             <!-- Row End -->
         </div>
-
+    </div>
         <!-- Blog Area End -->
 
 @endsection
