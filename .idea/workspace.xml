@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="384c4943-fabd-4ac9-b840-985d3baeac0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="384c4943-fabd-4ac9-b840-985d3baeac0d" name="Default Changelist" comment="t" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -363,6 +359,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -499,6 +496,7 @@
       <workItem from="1610733068015" duration="1011000" />
       <workItem from="1611425922093" duration="6780000" />
       <workItem from="1613166428248" duration="1371000" />
+      <workItem from="1613168122407" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="working on settings!">
       <created>1608580674422</created>
@@ -542,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611435186091</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="t">
+      <created>1613168411083</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613168411083</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -585,7 +590,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -615,7 +626,8 @@
     <MESSAGE value="change js from cdn to local libraries" />
     <MESSAGE value="working on search" />
     <MESSAGE value="working on search2" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on search2" />
+    <MESSAGE value="t" />
+    <option name="LAST_COMMIT_MESSAGE" value="t" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606820242372">
