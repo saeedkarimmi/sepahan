@@ -2,132 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="384c4943-fabd-4ac9-b840-985d3baeac0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/front/search/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/front/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/vendor/asm89/stack-cors/" />
-    <ignored path="$PROJECT_DIR$/vendor/beberlei/assert/" />
-    <ignored path="$PROJECT_DIR$/vendor/brick/math/" />
-    <ignored path="$PROJECT_DIR$/vendor/cocur/slugify/" />
-    <ignored path="$PROJECT_DIR$/vendor/composer/" />
-    <ignored path="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable/" />
-    <ignored path="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/inflector/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/instantiator/" />
-    <ignored path="$PROJECT_DIR$/vendor/doctrine/lexer/" />
-    <ignored path="$PROJECT_DIR$/vendor/dragonmantank/cron-expression/" />
-    <ignored path="$PROJECT_DIR$/vendor/egulias/email-validator/" />
-    <ignored path="$PROJECT_DIR$/vendor/facade/flare-client-php/" />
-    <ignored path="$PROJECT_DIR$/vendor/facade/ignition/" />
-    <ignored path="$PROJECT_DIR$/vendor/facade/ignition-contracts/" />
-    <ignored path="$PROJECT_DIR$/vendor/fideloper/proxy/" />
-    <ignored path="$PROJECT_DIR$/vendor/filp/whoops/" />
-    <ignored path="$PROJECT_DIR$/vendor/fruitcake/laravel-cors/" />
-    <ignored path="$PROJECT_DIR$/vendor/fzaninotto/faker/" />
-    <ignored path="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/" />
-    <ignored path="$PROJECT_DIR$/vendor/guzzlehttp/promises/" />
-    <ignored path="$PROJECT_DIR$/vendor/guzzlehttp/psr7/" />
-    <ignored path="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php/" />
-    <ignored path="$PROJECT_DIR$/vendor/harimayco/laravel-menu/" />
-    <ignored path="$PROJECT_DIR$/vendor/intervention/image/" />
-    <ignored path="$PROJECT_DIR$/vendor/laravel/framework/" />
-    <ignored path="$PROJECT_DIR$/vendor/laravel/tinker/" />
-    <ignored path="$PROJECT_DIR$/vendor/laravel/ui/" />
-    <ignored path="$PROJECT_DIR$/vendor/league/commonmark/" />
-    <ignored path="$PROJECT_DIR$/vendor/league/flysystem/" />
-    <ignored path="$PROJECT_DIR$/vendor/league/glide/" />
-    <ignored path="$PROJECT_DIR$/vendor/league/mime-type-detection/" />
-    <ignored path="$PROJECT_DIR$/vendor/maennchen/zipstream-php/" />
-    <ignored path="$PROJECT_DIR$/vendor/mockery/mockery/" />
-    <ignored path="$PROJECT_DIR$/vendor/monolog/monolog/" />
-    <ignored path="$PROJECT_DIR$/vendor/morilog/jalali/" />
-    <ignored path="$PROJECT_DIR$/vendor/myclabs/deep-copy/" />
-    <ignored path="$PROJECT_DIR$/vendor/myclabs/php-enum/" />
-    <ignored path="$PROJECT_DIR$/vendor/nesbot/carbon/" />
-    <ignored path="$PROJECT_DIR$/vendor/nikic/php-parser/" />
-    <ignored path="$PROJECT_DIR$/vendor/nunomaduro/collision/" />
-    <ignored path="$PROJECT_DIR$/vendor/opis/closure/" />
-    <ignored path="$PROJECT_DIR$/vendor/org_heigl/ghostscript/" />
-    <ignored path="$PROJECT_DIR$/vendor/paragonie/random_compat/" />
-    <ignored path="$PROJECT_DIR$/vendor/phar-io/manifest/" />
-    <ignored path="$PROJECT_DIR$/vendor/phar-io/version/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpoption/phpoption/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpspec/prophecy/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-code-coverage/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-file-iterator/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-text-template/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-timer/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/php-token-stream/" />
-    <ignored path="$PROJECT_DIR$/vendor/phpunit/phpunit/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/container/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/event-dispatcher/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/http-message/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/log/" />
-    <ignored path="$PROJECT_DIR$/vendor/psr/simple-cache/" />
-    <ignored path="$PROJECT_DIR$/vendor/psy/psysh/" />
-    <ignored path="$PROJECT_DIR$/vendor/ralouphie/getallheaders/" />
-    <ignored path="$PROJECT_DIR$/vendor/ramsey/collection/" />
-    <ignored path="$PROJECT_DIR$/vendor/ramsey/uuid/" />
-    <ignored path="$PROJECT_DIR$/vendor/scrivo/highlight.php/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/comparator/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/diff/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/environment/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/exporter/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/global-state/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/object-enumerator/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/object-reflector/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/recursion-context/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/resource-operations/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/type/" />
-    <ignored path="$PROJECT_DIR$/vendor/sebastian/version/" />
-    <ignored path="$PROJECT_DIR$/vendor/spatie/image/" />
-    <ignored path="$PROJECT_DIR$/vendor/spatie/image-optimizer/" />
-    <ignored path="$PROJECT_DIR$/vendor/spatie/laravel-medialibrary/" />
-    <ignored path="$PROJECT_DIR$/vendor/spatie/laravel-permission/" />
-    <ignored path="$PROJECT_DIR$/vendor/spatie/pdf-to-image/" />
-    <ignored path="$PROJECT_DIR$/vendor/spatie/temporary-directory/" />
-    <ignored path="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/console/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/css-selector/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/deprecation-contracts/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/error-handler/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/event-dispatcher/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/finder/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/http-foundation/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/http-kernel/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/mime/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-iconv/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php70/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php72/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php73/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/polyfill-php80/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/process/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/routing/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/service-contracts/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/string/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/translation/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/translation-contracts/" />
-    <ignored path="$PROJECT_DIR$/vendor/symfony/var-dumper/" />
-    <ignored path="$PROJECT_DIR$/vendor/theseer/tokenizer/" />
-    <ignored path="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles/" />
-    <ignored path="$PROJECT_DIR$/vendor/vlucas/phpdotenv/" />
-    <ignored path="$PROJECT_DIR$/vendor/voku/portable-ascii/" />
-    <ignored path="$PROJECT_DIR$/vendor/webmozart/assert/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,94 +13,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/header.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10726">
-              <caret line="34" column="70" selection-start-line="34" selection-start-column="70" selection-end-line="34" selection-end-column="70" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/master.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="208" column="30" selection-start-line="208" selection-start-column="30" selection-end-line="208" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="121" column="46" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="46" />
-              <folding>
-                <element signature="e#904#2367#2#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SearchController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/front/search/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-              <folding>
-                <element signature="e#568#604#0#HTML" expanded="true" />
-                <element signature="e#1403#1439#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -249,6 +40,7 @@
       <find>shop</find>
       <find>product</find>
       <find>pro</find>
+      <find>mmmmmmmm</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -276,12 +68,12 @@
         <option value="$PROJECT_DIR$/public/js/jquery-3.2.1.slim.min.js" />
         <option value="$PROJECT_DIR$/public/js/popper.min.js" />
         <option value="$PROJECT_DIR$/public/js/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/front/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/front/search/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/front/master.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" />
       </list>
     </option>
   </component>
@@ -585,25 +377,13 @@
       <recent name="$PROJECT_DIR$/resources/sass" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -717,7 +497,8 @@
       <workItem from="1609087692525" duration="2633000" />
       <workItem from="1610219708073" duration="2942000" />
       <workItem from="1610733068015" duration="1011000" />
-      <workItem from="1611425922093" duration="5728000" />
+      <workItem from="1611425922093" duration="6780000" />
+      <workItem from="1613166428248" duration="1371000" />
     </task>
     <task id="LOCAL-00001" summary="working on settings!">
       <created>1608580674422</created>
@@ -747,11 +528,25 @@
       <option name="project" value="LOCAL" />
       <updated>1610222338481</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="working on search">
+      <created>1611434340554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611434340554</updated>
+    </task>
+    <task id="LOCAL-00006" summary="working on search2">
+      <created>1611435186091</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611435186091</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20733000" />
+    <option name="totallyTimeSpent" value="21785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -783,29 +578,14 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -824,6 +604,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -832,7 +613,9 @@
     <MESSAGE value="comment require" />
     <MESSAGE value="assign sliders" />
     <MESSAGE value="change js from cdn to local libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="change js from cdn to local libraries" />
+    <MESSAGE value="working on search" />
+    <MESSAGE value="working on search2" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on search2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="458" y="212" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606820242372">
@@ -1124,27 +907,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/js/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="208" column="30" selection-start-line="208" selection-start-column="30" selection-end-line="208" selection-end-column="30" />
+        <state relative-caret-position="651">
+          <caret line="284" column="114" selection-start-line="284" selection-start-column="114" selection-end-line="284" selection-end-column="114" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="121" column="46" selection-start-line="121" selection-start-column="43" selection-end-line="121" selection-end-column="46" />
+        <state>
+          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#904#2367#2#PHP" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SearchController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1171,24 +953,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/front/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="715">
+          <caret line="37" column="60" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.mix.js">
+    <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="246">
+          <caret line="208" column="30" selection-start-line="208" selection-start-column="30" selection-end-line="208" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="58" column="81" selection-start-line="58" selection-start-column="81" selection-end-line="58" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SearchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
